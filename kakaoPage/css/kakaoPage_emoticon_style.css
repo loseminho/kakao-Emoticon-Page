@@ -1,0 +1,201 @@
+@font-face {
+    font-family: ns-light;
+    src: url(./Noto_Sans_KR/NotoSansKR-Light.otf);
+}
+
+@font-face {
+    font-family: ns-medium;
+    src: url(./Noto_Sans_KR/NotoSansKR-Medium.otf);
+}
+
+@font-face {
+    font-family: ns-bold;
+    src: url(./Noto_Sans_KR/NotoSansKR-Bold.otf);
+}
+
+.style_banner{
+   
+    width: 100%;
+    padding-top: 160px;
+   
+  
+}
+.style_box{
+    width: 50%;
+    margin: 0 auto;
+    
+    margin-top: 75px;
+    
+    padding-bottom: 25px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+
+.style_title{
+    overflow: hidden;
+}
+.style_text{
+    float: left;
+    font-family: ns-bold;
+    font-size:23px;
+    color: black;
+
+}
+.style_icon{
+    float: left;
+    margin-top: 5px;
+}
+
+.style_box a{
+    text-decoration: none;
+    
+    
+}
+.style_title span:last-child{
+    font-size: 25px;
+    color: darkgray;
+}
+.sytle_img_list a{
+    text-decoration: none;
+}
+
+.style_img_box{
+    margin-top: 15px;
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.style_img_box>img{
+    width: 220px;
+    height: 280px;
+    border-radius: 5px;
+}
+.style_img_box>img:hover{
+    
+        border-style : hidden;
+        box-shadow: 3px 3px 3px 3px lightgray;
+}
+
+.silde-content{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.slide-wrap{
+    width: 800px;
+    margin: 0 auto;
+    /*영역에서 벗어나는 건 보여주지 x*/
+    overflow: hidden;
+    position: relative;
+}
+.slide-wrap>ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+   
+}
+.slide-wrap>ul>li{
+    width: 800px;
+    float: left;
+}
+.slide-wrap>ul>li>img{
+    width :100%;
+    height: 220px;
+}
+
+.slide-navi{
+    height: 500px;
+    line-height: 500px;
+    position: absolute;
+    top:0;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+.slide-navi>span{
+    color: white;
+    font-size: 30px;
+    
+}
+.slide-navi:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.slide-wrap{
+    width: 800px;
+    margin: 0 auto;
+    /*영역에서 벗어나는 건 보여주지 x*/
+    overflow: hidden;
+    position: relative;
+}
+.slide-wrap>ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+   
+}
+.slide-wrap>ul>li{
+    width: 800px;
+    float: left;
+}
+.slide-wrap>ul>li>img{
+    width : 800px;
+    height: 220px;
+}
+
+.slide-navi{
+    height: 220px;
+    line-height: 220px;
+    position: absolute;
+    top:0;
+    text-align: center;
+    
+    opacity: 0.4;
+}
+
+.prev{
+    left: 0px;
+}
+.next{
+    right: 0px;
+}
+.slide-navi>span{
+    color :grey;
+    font-size: 30px;
+    
+}
+.slide-navi:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.footer{
+    width: 70%;
+    margin : 0 auto;
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer>div{
+    margin-top: 20px;
+    font-size: 12px;
+    color: lightslategray;
+}
+
+
+
+
+
